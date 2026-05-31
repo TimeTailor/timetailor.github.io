@@ -29,7 +29,7 @@
       color: white;
       border-radius: 24px;
       padding: 40px 28px;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
     }
 
     .hero h1 {
@@ -49,7 +49,7 @@
       background: white;
       border-radius: 20px;
       padding: 28px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
     }
 
     h2 {
@@ -70,6 +70,21 @@
       border-radius: 14px;
       background: #fafafa;
       font-weight: 600;
+    }
+
+    .apps a {
+      color: #111827;
+      text-decoration: none;
+      display: block;
+    }
+
+    .apps a:hover {
+      color: #2563eb;
+    }
+
+    .apps small {
+      color: #6b7280;
+      font-weight: 400;
     }
 
     .footer {
@@ -93,25 +108,58 @@
 
 <body>
   <main class="wrap">
+
     <section class="hero">
       <h1>Studio TimeTailor</h1>
-      <p>모바일 앱을 기획하고 개발하며, 일상에 필요한 작고 실용적인 도구를 만듭니다.</p>
+      <p>
+        모바일 앱을 기획하고 개발하며,
+        일상에 필요한 작고 실용적인 도구를 만듭니다.
+      </p>
     </section>
 
     <section class="section">
       <h2>운영 중인 앱</h2>
 
       <ul class="apps">
-        <li>엽전점 - 주역 육효 운세</li>
-        <li>전통 단위 변환기</li>
-        <li>RUNHOLIC - AI 러닝 코치</li>
-        <li>먼저먹자 - 식재료 유통기한 관리 앱</li>
-        <li>달빛타로 - AI 타로 리딩</li>
+
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.yeopjeon.hexagram" target="_blank">
+            엽전점 - 주역 육효 운세
+          </a>
+        </li>
+
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.traditionalunit.converter" target="_blank">
+            전통 단위 변환기
+          </a>
+        </li>
+
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.starbion.runholic" target="_blank">
+            RUNHOLIC - AI 러닝 코치
+          </a>
+        </li>
+
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.starbion.eatfirst" target="_blank">
+            먼저먹자 - 식재료 유통기한 관리 앱
+          </a>
+        </li>
+
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.starbion.moonlighttarot" target="_blank">
+            달빛타로 - AI 타로 리딩
+          </a>
+          <br>
+          <small>현재 클로즈 베타 테스트 진행 중</small>
+        </li>
+
       </ul>
     </section>
 
     <section class="section">
       <h2>정보</h2>
+
       <p>
         Studio TimeTailor는 모바일 앱 개발 및 운영을 위한 개발자 사이트입니다.
         앱 관련 정보와 운영에 필요한 공개 문서를 제공합니다.
@@ -126,6 +174,7 @@
       <p>개발자: Studio TimeTailor</p>
       <p>문의: studio.timetailor@gmail.com</p>
     </footer>
+
   </main>
 </body>
 </html>
