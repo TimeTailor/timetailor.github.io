@@ -8,38 +8,124 @@
   <script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9213010752576483"
     crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f7f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1f2937, #374151);
+      color: white;
+      border-radius: 24px;
+      padding: 40px 28px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      margin: 0;
+      color: #d1d5db;
+      font-size: 17px;
+    }
+
+    .section {
+      margin-top: 28px;
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    .apps {
+      display: grid;
+      gap: 14px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .apps li {
+      padding: 16px 18px;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      background: #fafafa;
+      font-weight: 600;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Studio TimeTailor</h1>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Studio TimeTailor</h1>
+      <p>모바일 앱을 기획하고 개발하며, 일상에 필요한 작고 실용적인 도구를 만듭니다.</p>
+    </section>
 
-  <p>모바일 앱 개발 및 운영</p>
+    <section class="section">
+      <h2>운영 중인 앱</h2>
 
-  <ul>
-    <li>엽전점 - 주역 육효 운세</li>
-    <li>전통 단위 변환기</li>
-    <li>RUNHOLIC - AI 러닝 코치</li>
-    <li>먼저먹자 - 식재료 유통기한 관리 앱</li>
-    <li>달빛타로 - AI 타로 리딩</li>
-  </ul>
+      <ul class="apps">
+        <li>엽전점 - 주역 육효 운세</li>
+        <li>전통 단위 변환기</li>
+        <li>RUNHOLIC - AI 러닝 코치</li>
+        <li>먼저먹자 - 식재료 유통기한 관리 앱</li>
+        <li>달빛타로 - AI 타로 리딩</li>
+      </ul>
+    </section>
 
-  <p>
-    앱 관련 정보와 개인정보처리방침을 제공합니다.
-  </p>
+    <section class="section">
+      <h2>정보</h2>
+      <p>
+        Studio TimeTailor는 모바일 앱 개발 및 운영을 위한 개발자 사이트입니다.
+        앱 관련 정보와 운영에 필요한 공개 문서를 제공합니다.
+      </p>
 
-  <ul>
-    <li>
-      <a href="/app-ads.txt">app-ads.txt</a>
-    </li>
-  </ul>
+      <p>
+        <a href="/app-ads.txt">app-ads.txt 보기</a>
+      </p>
+    </section>
 
-  <p>
-    개발자: Studio TimeTailor
-  </p>
-
-  <p>
-    문의:<br>
-    studio.timetailor@gmail.com
-  </p>
+    <footer class="footer">
+      <p>개발자: Studio TimeTailor</p>
+      <p>문의: studio.timetailor@gmail.com</p>
+    </footer>
+  </main>
 </body>
 </html>
