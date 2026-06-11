@@ -1,27 +1,149 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>개발노트</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개발노트 | Studio TimeTailor</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f7f7fb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 34px;
+    }
+
+    .intro {
+      color: #6b7280;
+      margin-bottom: 32px;
+    }
+
+    .note-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .note-list li {
+      padding: 18px 20px;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      background: #fafafa;
+      margin-bottom: 14px;
+    }
+
+    .note-list a {
+      color: #111827;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .note-list a:hover {
+      color: #2563eb;
+    }
+
+    .date {
+      display: block;
+      margin-top: 6px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .back {
+      margin-top: 28px;
+    }
+
+    .back a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 32px 16px;
+      }
+
+      .section {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+
 </head>
+
 <body>
 
-<h1>Studio TimeTailor 개발노트</h1>
+  <main class="wrap">
 
-<p>
-앱 업데이트 기록과 개발 진행 상황을 정리하는 공간입니다.
-</p>
+```
+<section class="section">
 
-<ul>
-  <li>
-    2026-06-11
-    HANGEUL 1446 배너 및 화면 전환 개선
-  </li>
-</ul>
+  <h1>개발노트</h1>
 
-<p>
-  <a href="../index.html">메인으로</a>
-</p>
+  <p class="intro">
+    Studio TimeTailor에서 개발 중인 앱들의
+    업데이트 내역과 개발 진행 상황을 기록합니다.
+  </p>
+
+  <ul class="note-list">
+
+    <li>
+      <a href="#">
+        HANGEUL 1446 화면 전환 및 배너 개선
+      </a>
+      <span class="date">
+        2026.06.11
+      </span>
+    </li>
+
+    <li>
+      <a href="#">
+        RUNHOLIC GPS 및 고도 필터 개선
+      </a>
+      <span class="date">
+        2026.06.10
+      </span>
+    </li>
+
+  </ul>
+
+  <div class="back">
+    <a href="../index.html">
+      ← 메인 페이지로 돌아가기
+    </a>
+  </div>
+
+</section>
+```
+
+  </main>
 
 </body>
 </html>
+
