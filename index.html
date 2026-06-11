@@ -29,17 +29,13 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-
       color: white;
       border-radius: 24px;
       padding: 40px 28px;
       min-height: 220px;
-
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-
       position: relative;
       overflow: hidden;
-
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -119,6 +115,24 @@
       font-weight: 400;
     }
 
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      overflow: hidden;
+      border-radius: 16px;
+      margin-top: 16px;
+      background: #000;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
     .footer {
       margin-top: 28px;
       text-align: center;
@@ -159,22 +173,6 @@
         padding: 22px;
         border-radius: 18px;
       }
-
-      .video-wrap {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        overflow: hidden;
-        border-radius: 16px;
-      }
-
-      .video-wrap iframe {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-      }
     }
   </style>
 </head>
@@ -194,7 +192,6 @@
       <h2>운영 중인 앱</h2>
 
       <ul class="apps">
-
         <li>
           <a href="https://play.google.com/store/apps/details?id=com.yeopjeon.hexagram" target="_blank">
             엽전점 - 주역 육효 운세
@@ -218,11 +215,11 @@
             먼저먹자 - 식재료 유통기한 관리 앱
           </a>
         </li>
+      </ul>
 
-      <br>
- 
-      <h2>개발 및 테스트 중인 앱</h2>
-        
+      <h2 style="margin-top: 32px;">개발 및 테스트 중인 앱</h2>
+
+      <ul class="apps">
         <li>
           <a href="https://play.google.com/store/apps/details?id=com.starbion.moonlighttarot" target="_blank">
             달빛타로 - AI 타로 리딩
@@ -230,7 +227,6 @@
           <br>
           <small>현재 클로즈 베타 테스트 진행 중</small>
         </li>
-
       </ul>
     </section>
 
@@ -245,13 +241,12 @@
         <iframe
           src="https://www.youtube.com/embed/f7pzWBC7UN8"
           title="Studio TimeTailor 소개 영상"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
       </div>
     </section>
-    
+
     <section class="section">
       <h2>개발노트</h2>
 
@@ -267,7 +262,7 @@
         </li>
       </ul>
     </section>
-    
+
     <section class="section">
       <h2>정보</h2>
 
